@@ -1,19 +1,10 @@
-public class Kino {
-    String navn;
+public class Kino extends arrangement {
     int antallSaler;
 
-    public Kino(String navn, int antallSaler) {
-        this.navn = navn;
+    public Kino(int antallSaler) {
         this.antallSaler = antallSaler;
     }
 
-    public String getNavn() {
-        return navn;
-    }
-
-    public void setNavn(String navn) {
-        this.navn = navn;
-    }
 
     public int getAntallSaler() {
         return antallSaler;
