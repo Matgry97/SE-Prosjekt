@@ -1,5 +1,3 @@
-package com.company;
-
 import java.time.LocalDate;
 
 public class billett {
@@ -48,7 +46,6 @@ public class billett {
         this.salnr = salnr;
     }
 
-
     public int getRadnr() {
         return radnr;
     }
@@ -87,5 +84,9 @@ public class billett {
 
     public void setDato(LocalDate dato) {
         this.dato = dato;
+    }
+
+    public String toString() {
+        return " \n Filmnavn: " + this.filmnavn+ " \n Kinonavn: " + this.kinonavn + " \n Bilettpris: " + this.billettpris + " \n Salnummer: " + this.salnr + " \n Setenummer: " + this.setenr + " \n Radnummer: " + this.radnr + " \n Dato: " + this.dato;
     }
 }

@@ -3,12 +3,15 @@ public class Person {
     private String fornavn;
     private String etternavn;
     private int alder;
+    private billett billett;
 
-    public Person(String fornavn, String etternavn, int alder) {
+    public Person(String fornavn, String etternavn, int alder, billett billett) {
         this.fornavn = fornavn;
         this.etternavn = etternavn;
         this.alder = alder;
+        this.billett = billett;
     }
+
 
     public String getFornavn() {
         return this.fornavn;
@@ -35,7 +38,7 @@ public class Person {
     }
 
     public String toString() {
-        return this.fornavn + " " + this.etternavn + " " + this.alder;
+        return " Fornavn: " + this.fornavn  + " \n Etternavn: " + this.etternavn + " \n Alder: " + this.alder + " \n ---: Billett :---" + this.billett;
     }
 
 }
