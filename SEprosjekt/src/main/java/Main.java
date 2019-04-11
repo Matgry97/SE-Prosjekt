@@ -6,6 +6,8 @@ public class Main {
 
     private static List<Film> filmListe = new ArrayList<Film>();
 
+    private String Emil;
+
     public static void main(String[] args) {
         // write your code here
         Film actionJackson = new Film("Action Jackson slår til igjen","Heftig action",93, LocalDate.of(1988,7,7));
