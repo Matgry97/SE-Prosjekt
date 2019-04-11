@@ -1,3 +1,3 @@
 public class test {
-    private String karin;
+    private String vihn = "ingen verdens mening";
 }
