@@ -4,11 +4,13 @@ public class Person {
     private String etternavn;
     private int alder;
 
-    public Person(String fornavn, String etternavn, int alder) {
+    public Person(String fornavn, String etternavn, int alder, int saldo) {
         this.fornavn = fornavn;
         this.etternavn = etternavn;
         this.alder = alder;
     }
+
+    public Person() {}
 
     public String getFornavn() {
         return this.fornavn;

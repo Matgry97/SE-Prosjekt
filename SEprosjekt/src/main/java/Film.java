@@ -1,5 +1,5 @@
-
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Film {
 
@@ -7,6 +7,7 @@ public class Film {
     private String beskrivelse;
     private int spilletid;
     private LocalDate utgivDato;
+
 
     //public Person regissør;
     // public Person skuespiller;
@@ -18,6 +19,9 @@ public class Film {
         this.spilletid = spilletid;
         this.utgivDato = utgivDato;
     }
+
+    //Oppdater og endre film
+    //Slette film
 
 
     public String getTittel() {
