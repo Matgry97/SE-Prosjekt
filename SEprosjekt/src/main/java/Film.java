@@ -50,4 +50,14 @@ public class Film {
     public void setUtgivDato(LocalDate utgivDato) {
         this.utgivDato = utgivDato;
     }
+
+    @Override
+    public String toString() {
+        return "Film{" +
+                "tittel='" + tittel + '\'' +
+                ", beskrivelse='" + beskrivelse + '\'' +
+                ", spilletid=" + spilletid +
+                ", utgivDato=" + utgivDato +
+                '}';
+    }
 }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.tngtech.junit.dataprovider:junit-jupiter-params-dataprovider:2.4" type="repository">
+    <properties maven-id="com.tngtech.junit.dataprovider:junit-jupiter-params-dataprovider:2.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/junit-jupiter-params-dataprovider-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-dataprovider-core-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
